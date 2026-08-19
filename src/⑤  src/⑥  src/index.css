@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+.container { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #fff; padding: 20px; }
+.main { width: 100%; max-width: 400px; text-align: center; }
+h1 { font-size: 22px; margin-bottom: 30px; color: #222; }
+.form-box { display: flex; flex-direction: column; gap: 14px; }
+.input { padding: 14px; font-size: 16px; border: 1px solid #ddd; border-radius: 8px; }
+.link { text-align: right; color: #0066cc; text-decoration: none; font-size: 14px; margin: 4px 0; }
+.btn { padding: 14px; background: #0066cc; color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; margin-top: 8px; }
+.btn:hover { background: #0052a3; }
+.copyright { margin-top: 40px; font-size: 12px; color: #888; }
